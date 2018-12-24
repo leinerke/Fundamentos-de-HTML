@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scale=no">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Hoja de Vida</title>
+</head>
+
+<body>
+    <header>
+        <img width="200" src="svg/dibujo.svg" alt="Logo-SVG" title="Logo-SVG">
+        <h1>Hoja de vida</h1>
+        <h2>Nombre: Leinerke Ilich Suárez Alcala.</h2>
+        <h3>Fecha de Nacimiento: 18 de enero del 2018.</h3>
+        <h3>Lugar de Nacimiento: Caracas, Venezuela.</h3>
+    </header><br>
+
+    <nav>
+        <a href="index.html">Inicio</a> |
+        <a href="#">Educacion</a> |
+        <a href="experiencia.html">Experiencia</a>
+    </nav><br>
+
+    <section>
+        <h2>Educacion</h2>
+        <table border="1">
+            <tr>
+                <th>Año</th>
+                <th>Titulo o Certificado</th>
+                <th>Institucion</th>
+                <th>Lugar</th>
+                <th>¿Culmino?</th>
+            </tr>
+            <tr>
+                <td>2017</td>
+                <td>Bachillerato</td>
+                <td>Madre Teresa de Calcuta</td>
+                <td>Colombia</td>
+                <td>Si</td>
+            </tr>
+            <tr>
+                <td>2018</td>
+                <td>TÉCNICO EN SISTEMAS</td>
+                <td>SENA</td>
+                <td>Colombia</td>
+                <td>En proceso</td>
+            </tr>
+            <tr>
+                <td>2016</td>
+                <td>Creacion de Paginas Web con Wordpress (Basico)</td>
+                <td>Incotec</td>
+                <td>Venezuela</td>
+                <td>Si</td>
+            </tr>
+            <tr>
+                <td>2016</td>
+                <td>Creacion de Paginas Web con Wordpress (Intermedio)</td>
+                <td>Grupo Platinux</td>
+                <td>Venezuela</td>
+                <td>Si</td>
+            </tr>
+        </table><br>
+
+        <form>
+            <fieldset>
+                <legend>Agregar Estudios</legend>
+
+                <label for="year">Año:</label><br>
+                <select name="year" id="year">
+                    <option value="year1">2018</option>
+                    <option value="year2">2019</option>
+                    <option value="year3">2020</option>
+                    <option value="year4">2021</option>
+                    <option value="year5">2022</option>
+                    <option value="year6">2023</option>
+                </select><br><br>
+
+                <label for="titulo">Titulo</label><br>
+                <input type="text" name="titulo" id="titulo" required><br><br>
+
+                <label for="institucion">Institucion:</label><br>
+                <input type="text" name="institucion" id="institucion" required><br><br>
+
+                <label for="lugar">Lugar:</label><br>
+                <textarea name="lugar" id="lugar" cols="30" rows="2"></textarea><br><br>
+
+                <label for="culmino">¿Culmino?</label><br>
+                <select name="culmino" id="culmino">
+                    <option value="culmino1">Si</option>
+                    <option value="culmino2">No</option>
+                    <option value="culmino3">En proceso</option>
+                </select><br><br>
+
+                <input type="submit" value="Enviar">
+            </fieldset>
+        </form>
+    </section><br>
+
+    <footer>
+        <p align="center">Correo: leinerke2000@gmail.com | Telefono: 316-3995305</p>
+    </footer>
+</body>
+
+</html>
